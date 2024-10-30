@@ -1,0 +1,251 @@
+/* 
+    Created on : Sep 30, 2014, 7:03:12 AM
+    Author     : jekkilekki
+*/
+#jkl_thebox {
+    margin: 0 0 50px 0;
+    background-color: #fff;
+}
+#jkl_review_box {
+    background-color: #fcfcfc;
+    width: 100%;
+    border: 1px solid #e1e1e1;
+    min-height: 300px;
+}
+#jkl_review_box_head {
+    background-color: #13a1d7;
+    margin: 2px;
+    padding: 2px;
+    border-bottom: 1px solid #e1e1e1;
+    height: 50px;
+}
+#jkl_fa_icon {
+    float: left;
+    border-right: 1px solid #e1e1e1;
+    padding: 4px 15px 1px 0;
+    margin: 0 15px;
+    color: white;
+    font-size: 26px;
+    line-height: 40px;
+}
+#jkl_review_box_categories {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: white;
+    float: left;
+    margin: 13px 0 0 10px;
+}
+#jkl_review_box_body {
+    padding: 2px;
+}
+#jkl_review_box_cover {
+    width: 30%;
+    max-width: 200px;
+    float: left;
+    margin: 3%;
+    text-align: center;
+    font-size: 100px; // This is for the default fallback of the Post Type icon IF there is no Cover Image saved
+}
+#jkl_review_box_info {
+    width: 60%;
+    float: right;
+    margin: 3% 3% 3% 0;   
+}
+#jkl_review_box_info p {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 1em;
+}
+#jkl_review_box_info i {
+    font-size: 1.3em;
+    color: goldenrod;
+    padding-right: 5px;
+}
+#jkl_review_box_info span {
+    margin-left: 10px;
+    color: #cccccc;
+    font-style: italic;
+}
+#jkl_review_box_links_box {
+    width: 300px;
+}
+#jkl_review_box_links_box img {
+    width: 15px;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+#jkl_review_box_links_box a {
+    width: 50%;
+    float: left;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    color: #999999;
+    text-decoration: none;
+    line-height: 25px;
+    text-align: left;
+}
+#jkl_review_box_links_box a::before {
+    color: #464646;
+    padding-right: 3px;
+}
+#jkl_review_box_links_box a:hover {
+    text-decoration: underline;
+}
+#jkl_review_box_links_box a::before.hover {
+    text-decoration: none;
+}
+.jkl_clear {
+    clear: both;
+}
+.jkl_summary {
+    margin: 3% 0px 50px;
+    padding: 0 3%;
+    border-bottom: 3px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    padding-bottom: 20px;
+}
+.jkl_summary p {
+    margin-bottom: 1em;
+}
+.jkl_disclosure {
+    background-color: #fcfcfc;
+    color: #bbb;
+    margin: -50px 0 50px;
+    padding: 3%;
+    line-height: 1.1em;
+    font-size: .8em;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+}
+.jkl_credit {
+    font-size: 0.6em;
+    text-align: right;
+    margin: -22px 3% 0;
+    position: relative;
+    //opacity: 0.3;
+}
+/*.jkl_credit:hover {
+    opacity: 0.7;
+}
+.jkl_credit a {
+    text-decoration: none;
+    color: #777;
+}
+.jkl_credit a:hover {
+    color: #777;
+    opacity: 0.7;
+}*/
+.jkl_credit img {
+    width: 40px;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+    opacity: 0.2;
+}
+.jkl_credit img:hover {
+    opacity: 0.7;
+}
+
+/*
+ * Dark box style
+ */
+#jkl_review_box.Dark {
+    border-right: 1px solid #3a3a3a;
+    border-left: 1px solid #3a3a3a;
+    border-top: 1px solid #3a3a3a;
+}
+#jkl_review_box_head {
+    margin: 0;
+}
+.Dark, #jkl_review_box.Dark, .Dark h1, .Dark h2, .Dark h3, .Dark h4, .Dark h5, .Dark h6 {
+    color: #ccc;
+}
+#jkl_review_box.Dark span {
+    opacity: 0.6;
+}
+#jkl_review_box_links_box.Dark a, #jkl_review_box_links_box.Dark a::before {
+    color: #999;
+}
+#jkl_thebox.Dark {
+    background-color: #3a3a3a;
+}
+#jkl_review_box.Dark {
+    background-color: #222222;
+}
+#jkl_review_box.Dark p {
+    border-color: #777;
+}
+.jkl_summary.Dark {
+    border-left:none;
+    border-right:none;
+}
+.jkl_disclosure.Dark {
+    background-color: #222222;
+    border-right: 1px solid #3a3a3a;
+    border-left: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
+}
+.jkl_disclosure.Dark small {
+    opacity: 0.5;
+}
+
+/*
+ * Header colors
+ */
+#jkl_review_box_head.Blue { 
+    // background-color: #13a1d7!important;
+}
+#jkl_review_box_head.Slate {
+    background-color: #4f6e77!important;
+}
+#jkl_review_box_head.Brown {
+    background-color: #7a4b31!important;
+}
+#jkl_review_box_head.Burgundy {
+    background-color: #884228!important;
+}
+#jkl_review_box_head.Beige {
+    background-color: #b7b093!important;
+}
+#jkl_review_box_head.Camel {
+    background-color: #b3a262!important;
+}
+#jkl_review_box_head.Sand {
+    background-color: #a1866d!important;
+}
+#jkl_review_box_head.Mud {
+    background-color: #746059!important;
+}
+
+
+/* 
+ * Responsive media styles
+ */
+@media only screen and (max-width: 500px) {
+    #jkl_review_box_cover {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    #jkl_review_box_body {
+        text-align: center;
+    }
+    #jkl_review_box_info {
+        width: 94%;
+        margin-left: 3%;
+        float: none;
+        text-align: left;
+    }
+    #jkl_review_box_links_box {
+        width: 150px;
+        margin-bottom: 5%;
+        text-align: left;
+    }
+    #jkl_review_box_links_box a {
+        display: block;
+        width: 100%;
+    }
+    .jkl_clear {
+        margin-bottom: 20px;
+    }
+} 
